@@ -60,12 +60,24 @@ flutter:
     - images/girl2.jpg
     - images/girl3.jpg
     - images/girl4.jpg
-    - images/girl4.jpg
+    - images/girl5.jpg
     - images/girl6.jpg
     - images/girl7.jpg
     - images/girl8.jpg
     - images/girl9.jpg
     - images/girl10.jpg
+    - images/toRight.png
+    - images/icon_friend_around.png
+    - images/icon_video_num.png
+    - images/icon_buy_goods.png
+    - images/icon_game.png
+    - images/icon_little_app.png
+    - images/icon_look_look.png
+    - images/icon_near_man.png
+    - images/icon_sao_sao.png
+    - images/icon_search_one_search.png
+    - images/icon_video_num.png
+    - images/icon_yao_yao.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

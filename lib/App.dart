@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_wx/colors.dart';
 import 'package:flutter_wx/wx/ChatList.dart';
 
+import 'find/find.dart';
+import 'maillist/Contacts.dart';
+
 ///程序入口页
 ///tab脚手架
 class HomePage extends StatelessWidget {
@@ -10,6 +13,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '放微信四大主页',
+      theme: ThemeData(
+        primaryColor: Colors.green
+      ),
       home: BottomNavigationTab(),
     );
   }
@@ -22,8 +28,8 @@ class BottomNavigationTab extends StatefulWidget {
 
 class _BottomNavigationTab extends State<BottomNavigationTab> {
   //当前选中项的索引
-  int _selectedIndex = 1;
-  final tabViews = [ChatList(), ChatList(), ChatList(), ChatList()];
+  int _selectedIndex = 0;
+  final tabViews = [ChatList(), ContactView(), FindPage(), ChatList()];
 
   _popupMenuItem(String title, {String imagePath, IconData icon}) {
     return PopupMenuItem(
