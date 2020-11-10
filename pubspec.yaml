@@ -78,6 +78,13 @@ flutter:
     - images/icon_search_one_search.png
     - images/icon_video_num.png
     - images/icon_yao_yao.png
+    - images/icon_rq.png
+    - images/icon_card.png
+    - images/icon_emejoy.png
+    - images/icon_pay.png
+    - images/icon_photo.png
+    - images/icon_setting.png
+    - images/icon_store.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

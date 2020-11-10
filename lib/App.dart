@@ -5,6 +5,7 @@ import 'package:flutter_wx/wx/ChatList.dart';
 
 import 'find/find.dart';
 import 'maillist/Contacts.dart';
+import 'mine/mine.dart';
 
 ///程序入口页
 ///tab脚手架
@@ -29,7 +30,7 @@ class BottomNavigationTab extends StatefulWidget {
 class _BottomNavigationTab extends State<BottomNavigationTab> {
   //当前选中项的索引
   int _selectedIndex = 0;
-  final tabViews = [ChatList(), ContactView(), FindPage(), ChatList()];
+  final tabViews = [ChatList(), ContactView(), FindPage(), MinePage()];
 
   _popupMenuItem(String title, {String imagePath, IconData icon}) {
     return PopupMenuItem(
